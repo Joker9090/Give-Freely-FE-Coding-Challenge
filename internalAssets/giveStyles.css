@@ -1,0 +1,75 @@
+
+[give-attr="searcher"] {
+  background-color: red;
+}
+
+[give-attr="searcher-holder"] {
+  transition: all 0.2s ease;
+  border: 2px solid gold !important;
+}
+
+[give-attr="floating-message"] {
+  transition: all 0.2s ease;
+  background-color: gold !important;
+  height: fit-content;
+  width: 200px;
+  cursor: pointer;
+  position: fixed;
+  border-radius: 3px;
+  right: 10px;
+  bottom: 70px;
+  padding: 8px;
+}
+
+[give-attr="floating-message"] p:nth-child(1) {
+  font-weight: bold;
+}
+[give-attr="floating-message"] p {
+  color: black;
+  margin-bottom: 2px;
+  margin-top: 0px;
+}
+
+[give-attr="floating"] {
+  transition: all 0.2s ease;
+  background-color: gold !important;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  border-radius: 100%;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+[give-attr="floating"]:after {
+  content: "";
+  background-image: url("/assets/bell.png");
+  background-size: contain;
+  background-position: center;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 0px;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  margin: auto;
+}
+
+[give-attr="result-match"] {
+  transition: all 0.2s ease;
+  border: 2px solid gold !important;
+}
+
+[give-attr="banner"] {
+  z-index: 99999999;
+  transition: all 0.2s ease;
+  font-weight: bold;
+  padding: 10px;
+  background-color: gold;
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+}
