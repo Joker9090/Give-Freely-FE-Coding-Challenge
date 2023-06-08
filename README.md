@@ -87,8 +87,15 @@ nvm use 16.14
 
 The script is checking for "cite" elements inside checkResults methods, is not checking those that came as Adds.
 
-There is a new npm cmd to run test
+### Testing
+I added Vite for testing
+Tests are located inside __tests__ folder in the root of this project.
+Also there is a new npm cmd to run tests:
 
 ```bash
 npm run test
 ``````
+
+I have to practice my testing more but in Plasmo docs say something about testing using TestBed. I wanted to do the extension tests throught TestBed but requires an Account.
+
+Total Time in Challenge 4hs
